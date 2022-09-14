@@ -1,0 +1,46 @@
+.signs{
+    background: orange;
+    color: white;
+}
+td{
+    /* text-align: left; */
+    /* margin: -30px; */
+    display: block;
+}
+tr{
+    display: flex;
+    flex-direction: row;
+    flex: content;
+    flex-wrap: wrap;
+}
+
+.Screen{
+    border-color: black;
+    border: 2px;
+    height: 200px;
+    border-style: double;
+}
+button{
+    padding: 20px 40px;
+    width: 80px;
+    text-align: justify;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    display: block;
+}
+.zero{
+    /* width: 300px; */
+    /* justify-content: center; */
+}
+table{
+    width: 90%;
+    margin-right: 10px;
+    display: inline-table;
+    border-spacing: 0;
+    background: black;
+    position: relative;
+}
+*{
+    position: relative;
+}
