@@ -1,0 +1,48 @@
+h3{
+   color: red; 
+}
+h1{
+    /* font-family: ;
+    font-style: ;
+    font-weight: ;
+    font-size: ;
+    text-decoration: underline;
+    text-align: ;
+    line-height: ;
+    word-spacing: ;
+    letter-spacing: ; */
+}
+ul{
+    /* list-style: square;  */
+    /* list-style: none; would remove the bullet  */
+    /* list-style: url(); */
+}
+.hello-div{
+    /* background-color: hsl(hue, saturation, lightness); */
+    /* border: ; */
+    /* padding: ; */
+    /* margin: ; */
+    /* height: ; */
+    /* width: ; */
+}
+.hello-span{
+    display:block;
+    position: ;
+    height: calc(100%v - 100px);
+    width: max(100%, 100px);
+    margin: ;
+    position: ;
+    display: ;
+}
+*{
+
+}
+.FirstParagraph{
+
+}
+#firstParagraph{
+
+}
+dt::hover{
+
+}
