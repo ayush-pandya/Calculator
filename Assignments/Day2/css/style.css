@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  background: #080828dc;
+}
 body {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   height: 100%;
@@ -9,12 +14,27 @@ html {
 }
 ul {
   list-style-type: none;
+  background: none;
 }
 li{
     margin-top: 20px;
+    background: none;
+}
+button{
+  height: 30px;
+  width: 80px;
+  border-radius: 20px;
+  background: #080828dc;
+  border-width: 2px;
+  border-color: gray;
+}
+a{
+  color: grey;
 }
 .navbar-options {
   float: right;
+  margin-left: 30px;
+  height: 30px;
 }
 .navbar-container {
   display: inline-block;
@@ -23,12 +43,12 @@ a {
   text-decoration: none;
 }
 .aside-left {
-  width: 30%;
-  height: 105vh;
+  width: 20%;
+  /* height: 105vh; */
   float: left;
-  background: #080828dc;
+  background: none;
   color: aliceblue;
-
+  margin: 30px;
 }
 .top {
   width: 70%;
@@ -46,7 +66,7 @@ a {
 }
 .bottom-container {
   width: 100%;
-  height: 700px;
+  /* height: 700px; */
   background-color: #080828dc;
   display: inline-flexbox;
   flex-direction: column;
@@ -64,7 +84,7 @@ a {
 }
 .card-content {
   margin-left: 10px;
-  margin-top: -18px;
+  /* margin-top: -18px; */
   height: 140px;
   width: 290px;
   background: #080828dc;
@@ -97,13 +117,19 @@ a {
   width: 70%;
 }
 .announcement-container {
+  padding:0px;
   background: #08082800;
   width: 80%;
-  height: 40%;
+  height: 200px;
   font-size: small;
 }
 .announcement-card{
     color: rgba(255, 255, 255, 0.618);
+    margin-top: -4px;
+}
+.announcement-detail{
+  font-size: 7px;
+  padding: 10px;
 }
 .aside-right {
   margin-left: -10px;
@@ -127,6 +153,7 @@ a {
 .top-container{
     background: #13134400;
     color: white;
+    display: flex;
 }
 .navbar{
     float: right;
@@ -146,4 +173,18 @@ input[type=text] {
   .top-container{
     margin-top: 20px;
     
+  }
+  .avatar{
+    border-radius: 50%;
+    width: 50px;
+    margin-left: 300px;
+  }
+  .logo{
+    border-radius: 50%;
+    width: 70px;
+  }
+  .profile{
+    display: flex;
+    /* margin-left: -300px; */
+    background: none;
   }

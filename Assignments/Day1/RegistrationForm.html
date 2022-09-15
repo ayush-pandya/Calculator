@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Employee Registration Form</title>
+</head>
+<body>
+    <header><h1>Employee Registration</h1></header>
+    <form name="pay" onSubmit="" method="POST">
+        <div id="form1">            
+            <p id="name">Name: <input type="text" name="name"></p>
+            
+            <fieldset id="gender" name="gender" value="male">
+                <label>
+                    Gender:</label>
+                    Male <input type="radio" name="gender" id="male">
+                    Female <input type="radio" name="gender" id="female">
+            </fieldset>
+            <fieldset id="dept" name="dept" value="Technical">
+                <label>
+                    Department:</label>
+                    Technical <input type="radio" name="dept" id="t">
+                    Non-Technical <input type="radio" name="dept" id="nt">
+            </fieldset>
+            
+            <p>Address: <textarea name="address" id="address" cols="30" rows="1"></textarea></p>
+            
+            <p>Pincode: <input type="number" name="pincode" id="pincode" min="000000" max="999999"></p>
+            
+            <p>Email:<input type="email" id="email" name="email"></p>
+            
+            <p for="myfile">Upload Adhaar:<input type="file" id="myfile" name="myfile"></p>
+            
+            <label for="quantity">Family Members:</label>
+            <input type="number" id="quantity" name="quantity">
+                
+            <br><br>
+            
+            <fieldset name="checkbox">
+                <label> Check & Uncheck :</label>
+                <input type="checkbox" name="op1" value="married">
+                <label for="op1"> I am married</label>
+                <input type="checkbox" name="op2" value="children">
+                <label for="op2"> I have children</label>
+            </fieldset>
+        </div>
+        
+        <div class="payment" id="form2">
+            <h1>Payment Information</h1>
+            <p>Card Type
+                <select name="card_type" id="card_type">
+                    <option value="">--Select a Card Type--</option>
+                    <option value="visa" selected>Visa</option>
+                    <option value="mastercard">Mastercard</option>
+                    <option value="rupay">Rupay</option>
+                </select>
+            </p>
+            <p> Card Number <input type="number" name="card_number" id="card_number"> </p>
+            <p> Expiration Date <input type="date" name="exp_date" id="exp_date" ></p>
+            <p> CVV <input type="password" name="cvv" id="cvv"></p>
+        </div>
+        <input type="submit" value="Submit" style="margin-left: 50%">
+        
+    </form>
+    <footer>
+        <p>Author: Ayush Pandya<br>
+    </footer>
+</body>
+</html>
