@@ -1,0 +1,44 @@
+.people h2{ 
+    color: #bcbdbf;
+    font-weight: 300;
+    padding: 0;
+    padding-top: 10px;
+    margin: 0;
+    /* padding-top: 10px; */
+    padding-left: 10px;
+}
+.people-container{
+    background-color: #282c31;
+    /* height: ; */
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    color: #808080;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .logo{
+    border-radius: 30px;
+    width: 60px;
+  }
+  .people-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  .people-username{
+    /* margin-top: 5%; */
+    /* margin-left: 0%; */
+    /* justify-content: left; */
+    font-weight: bolder;
+    /* font-size: 1.5rem; */
+    padding-left: 60px;
+  }
+  .hamIcon{
+    background-color: #2f3638;
+    color: aliceblue;
+  }

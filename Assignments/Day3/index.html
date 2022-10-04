@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Demo App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- <a target="_blank" href="https://icons8.com/icon/86372/edit">Edit icon by Icons8</a> -->
+    <script src="main.js"></script>
+  </head>
+  <body class="todo-body">
+    <header><h1>Todo List Demo App</h1></header>
+    <p><mark style="background-color: bisque">Do it now.</mark></p>
+    <button id="save-task-id-button" class="save-task-button" onclick="finishAdd()">Save Task</button>
+    <button class="add-task-button" onclick="addTask()">Add Task</button>
+    <br />
+    <div class="container">
+      <table id="myTable" class="todo-table">
+        <tr>
+          <th>#</th>
+          <th style="width: 50%">Task Name</th>
+          <th style="width: 30%">Status</th>
+          <th>Edit</th>
+          <th>Remove</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

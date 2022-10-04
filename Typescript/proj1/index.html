@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    
+    <div class="full-window">
+      <div class="image-window">
+        <img alt="DevRev Logo" src="./login-devrev.webp" style="width: 150%;height: 100%;" />
+      </div>
+      <div class="form-window">
+        <div class="logo" style="align-items: end;">
+            <img src="./devrev-logo-white.webp" alt="" style="width: 10%;">
+        </div>
+        <div style="font-size: 1.3rem;">Welcome to DevRev</div>
+        <br><br>
+        <div style="padding: top 12px;font-size: 1.3rem;" class="form-title">
+          Employee Registration Form
+        </div>
+
+
+        <form id="new-employee-form" name="employee-registration-form">
+          <div class="input-box">
+            <span class="input-label" >First Name</span>
+            <div class="text-box">
+              <input type="text" style="" class="input-field" id="fname" />
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="input-label">Last Name</span>
+            <div class="text-box">
+              <input type="text" style="" class="input-field" id="lname"/>
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="input-label">Email</span>
+            <div class="text-box">
+              <input type="text" style="" class="input-field" id="email"/>
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="input-label">Position you are applying for</span>
+            <div class="text-box">
+              <input type="text" style="" class="input-field" id="position"/>
+            </div>
+          </div>
+          <div class="input-box">
+            <span class="input-label">Phone</span>
+            <div class="text-box">
+              <input type="text" style="" class="input-field" id="phone"/>
+            </div>
+          </div>
+          <div class="input-box">
+            <span for="Relocate" class="input-label">Are you willing to relocate?</span>
+            <div class="text-box">
+              <!-- <input type="text" style="" class="input-field" /> -->
+                <input name="Relocate" type="radio" value="Yes" checked="checked" /> Yes      
+                <input name="Relocate" type="radio" value="No" /> No      
+                <input name="Relocate" type="radio" value="NotSure" /> Not Sure
+            </div>
+          </div>
+          <!-- <input type="submit" value="register"> -->
+          <button type="submit" onclick="validateForm()" class="devrev-button">Add</button>
+        </form>
+      </div>
+    </div>
+    <script src="./dist/index.js"
+    ></script>
+  </body>
+</html>

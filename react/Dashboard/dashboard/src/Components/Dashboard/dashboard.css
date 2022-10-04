@@ -1,0 +1,39 @@
+#dashboard{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 40%; */
+    /* width: 300px; */
+    background-color: #282c31;
+    color: #808080;
+    padding-top: 10px;
+    min-width: 250px;
+}
+.nav-links{
+    list-style: none;
+    padding-left: 20px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 10px;
+}
+.nav-link i{
+    padding: 10px;
+}
+.nav-link div{
+    font-size: larger;
+}
+.dashboard-title{
+    display: flex;
+    font-size: 23px;
+    align-items: center;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    /* justify-content: center; */
+}
+.dashboard-title i{
+    padding: 10px;
+    width: 30px;
+}
